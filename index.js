@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '!ping') {
+  if (msg.content === 'ping') {
     msg.reply('Pong!');
   }
 });
 
-client.login('Njk3OTIwNzEyNDU4ODk1NDQx.Xo-Y8g.uDekdgcgWr7HQ8fArPAzX5wDcZc');
+client.login('process.env.TOKEN');
